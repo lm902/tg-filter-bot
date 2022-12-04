@@ -1,0 +1,34 @@
+{
+  "name": "tg-filter-bot",
+  "version": "1.0.0",
+  "description": "A bot to filter out porn and ads from Telegram group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lm902/tg-filter-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "porn",
+    "nsfw",
+    "filter",
+    "ads"
+  ],
+  "author": "lm902",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lm902/tg-filter-bot/issues"
+  },
+  "homepage": "https://github.com/lm902/tg-filter-bot#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.1.0",
+    "node-telegram-bot-api": "^0.60.0",
+    "nsfwjs": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6"
+  }
+}
