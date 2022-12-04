@@ -25,6 +25,7 @@
   "homepage": "https://github.com/lm902/tg-filter-bot#readme",
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.1.0",
+    "dotenv": "^16.0.3",
     "node-telegram-bot-api": "^0.60.0",
     "nsfwjs": "^2.4.2"
   },
